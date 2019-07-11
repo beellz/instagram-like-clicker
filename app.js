@@ -1,7 +1,7 @@
 var count = 0;
 
 setInterval (function() { 
-  
+    const openPic = document.querySelector(".FFVAD").click();
     const heart = document.querySelector("button.afkep");
     const arrow = document.querySelector("a.coreSpriteRightPaginationArrow");
 
@@ -14,4 +14,4 @@ setInterval (function() {
     arrow.click();
 
 
-}, 3000);
+}, 15000);
